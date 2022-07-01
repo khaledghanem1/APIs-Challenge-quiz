@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1, h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color:black;
+}
+
+li::marker {
+    color: white;
+}
+
+#countdown {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: red;
+}
+
+#points {
+    font-size: 38px;
+    border-top: 1px solid red;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-style: italic;
+    color: red;
+    text-align: center;
+    width: 100%;
+}
