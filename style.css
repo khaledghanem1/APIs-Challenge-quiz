@@ -14,7 +14,7 @@ h1, h2 {
     margin-bottom: 30px;
 }
 
-button {
+button, input {
     background-color: black;
     color: white;
     padding: 5px 15px;
@@ -23,7 +23,7 @@ button {
     margin-bottom: 20px;
 }
 
-button:hover {
+button:hover, input:hover {
     background-color: white;
     color:black;
 }
@@ -41,7 +41,7 @@ li::marker {
     color: red;
 }
 
-#points {
+#points, .score {
     font-size: 38px;
     border-top: 1px solid red;
     padding-top: 20px;
@@ -51,3 +51,4 @@ li::marker {
     text-align: center;
     width: 100%;
 }
+
