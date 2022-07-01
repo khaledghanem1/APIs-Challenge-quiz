@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <script
       type="text/javascript"
@@ -14,76 +17,82 @@
   </head>
 
   <body>
- 
-      <span id="countdown"></span>
+    <span id="countdown"></span>
     <div class="wrapper">
-        <div class="d-block first">
-            <h1>Coding Quiz Challenge</h1>
-            <p>Try to answer the following code-related questions within the time limit.keep in mind that incocorrect answers will penalize your score/time by ten seconds! </p>
-            <button id="timer">start</button>
-        </div>
-        <div class="d-none second">
-            <h2>Commonly used data types DO Not Include:</h2>
-                <ul>
-                    <li><button>1.Strings</button></li>
-                    <li><button>2.Booleans</button></li>
-                    <li><button class="answer1">3.Alerts</button></li>
-                    <li><button>4.Numbers</button></li>
-                </ul>
-                <span id="points"></span>
-        </div>
-        <div class="d-none third">
-            <h2>The condition in an if / else statment is enclosed with ._______.</h2>
-            <ul>
-                <li><button>1.Quotes</button></li>
-                <li><button>2.Curly brackets</button></li>
-                <li><button class="answer2">3.Parenthesis</button></li>
-                <li><button>4.Square brackets</button></li>
-            </ul>
-            <span id="points"></span>
-
-        </div>
-        <div class="d-none fourth">
-            <h2>Arrays in JavaScript can be used to store._____.</h2>
-            <ul>
-                <li><button>1.Numbers and Strings</button></li>
-                <li><button>2.Other arrays</button></li>
-                <li><button>3.Booleans</button></li>
-                <li><button class="answer3">4.All of the above</button></li>
-            </ul>
-            <span id="points"></span>
-
-        </div>
-        <div class="d-none fifth">
-            <h2>String values must be enclosed within._____. when being assigned to variables.</h2>
-            <ul>
-                <li><button>1.Commas</button></li>
-                <li><button>2.Curly brackets</button></li>
-                <li><button class="answer4">3.Quotes</button></li>
-                <li><button>4.Parenthesis</button></li>
-            </ul>
-            <span id="points"></span>
-        </div>
-        <div class="d-none sixth">
-            <h2>A very useful tool used during development and debugging for printing content to the debugger is:</h2>
-            <ul>
-                <li><button>1.JavaScript</button></li>
-                <li><button>2.Terminal/bash</button></li>
-                <li><button>3.For loops</button></li>
-                <li><button class="answer5">4.Console.log</button></li>
-            </ul>
-            <span id="points"></span>
-        </div>
-        <div class="d-none last">
-            <h2>All done!</h2>
-            <input type="submit">
-            <span class="score">Score: </span>
-            
-        </div>
+      <div class="d-block first">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          Try to answer the following code-related questions within the time
+          limit.keep in mind that incocorrect answers will penalize your
+          score/time by ten seconds!
+        </p>
+        <button id="timer">start</button>
+      </div>
+      <div class="d-none second">
+        <h2>Commonly used data types DO Not Include:</h2>
+        <ul>
+          <li><button>1.Strings</button></li>
+          <li><button>2.Booleans</button></li>
+          <li><button class="answer1">3.Alerts</button></li>
+          <li><button>4.Numbers</button></li>
+        </ul>
+        <span id="points"></span>
+      </div>
+      <div class="d-none third">
+        <h2>
+          The condition in an if / else statment is enclosed with ._______.
+        </h2>
+        <ul>
+          <li><button>1.Quotes</button></li>
+          <li><button>2.Curly brackets</button></li>
+          <li><button class="answer2">3.Parenthesis</button></li>
+          <li><button>4.Square brackets</button></li>
+        </ul>
+        <span id="points"></span>
+      </div>
+      <div class="d-none fourth">
+        <h2>Arrays in JavaScript can be used to store._____.</h2>
+        <ul>
+          <li><button>1.Numbers and Strings</button></li>
+          <li><button>2.Other arrays</button></li>
+          <li><button>3.Booleans</button></li>
+          <li><button class="answer3">4.All of the above</button></li>
+        </ul>
+        <span id="points"></span>
+      </div>
+      <div class="d-none fifth">
+        <h2>
+          String values must be enclosed within._____. when being assigned to
+          variables.
+        </h2>
+        <ul>
+          <li><button>1.Commas</button></li>
+          <li><button>2.Curly brackets</button></li>
+          <li><button class="answer4">3.Quotes</button></li>
+          <li><button>4.Parenthesis</button></li>
+        </ul>
+        <span id="points"></span>
+      </div>
+      <div class="d-none sixth">
+        <h2>
+          A very useful tool used during development and debugging for printing
+          content to the debugger is:
+        </h2>
+        <ul>
+          <li><button>1.JavaScript</button></li>
+          <li><button>2.Terminal/bash</button></li>
+          <li><button>3.For loops</button></li>
+          <li><button class="answer5">4.Console.log</button></li>
+        </ul>
+        <span id="points"></span>
+      </div>
+      <div class="d-none last">
+        <h2>All done!</h2>
+        <input type="submit" />
+        <span class="score">Score: </span>
+      </div>
     </div>
-    
 
-    
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
     <script src="script.js"></script>
